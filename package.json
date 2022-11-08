@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "CHOKIDAR_USEPOLLING=true astro dev",
+    "start": "CHOKIDAR_USEPOLLING=true astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
